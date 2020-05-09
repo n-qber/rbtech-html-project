@@ -1,0 +1,164 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*
+grid de 960px
+remember os the 12 columns
+960 / 12 == 80
+*/
+.pequena{
+    width: 75px;
+    height: 75px;
+    margin: 0 10px;
+}
+.noticia{
+    display: flex;
+}
+.descricao h4{
+    font-weight: 800;
+    margin: 0;
+}
+p{
+    text-align: left;
+    word-wrap: break-word;
+}
+.descricao p{
+    display: block;
+    margin: 10px 0;
+    width: 285px;
+}
+h1{
+    font-weight: 300;
+}
+h2{
+    font-weight: 500;
+    overflow: hidden;
+}
+em{
+    font-weight: 400;
+}
+section{
+    overflow-x: hidden;
+}
+header{
+    background-color: #CFD2D7;
+    color: #1D3B5C;
+}
+form input[type=submit]{
+    border: none;
+    background: none;
+    border-radius: 4px;
+    background-color: #1D3B5C;
+    color: white;
+    padding: 8px 10px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+div li{
+    list-style-type: none;
+    color: #1D3B5C;
+}
+div ul li{
+    margin: 5px 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav ul li a{
+    padding: 8px 10px;
+}
+nav ul li a:hover{
+    border: none;
+    background: none;
+    border-radius: 4px;
+    background-color: #1D3B5C;
+    color: white;
+    padding: 8px 10px;
+    margin: auto;
+    text-decoration: none;
+}
+h3{
+    font-weight: 500;
+}
+.linha {
+    width: 960px;
+    margin: 0 auto; /* 0 up and down; centered (auto) left and right*/
+    overflow: auto;
+    padding: 5px 0;
+}
+.middlefooter{
+    background-color: #CDCCC8;
+    display: flex;
+    overflow: hidden;
+}
+.descricao p{
+    font-weight: 300;
+}
+.descricao a{
+    font-weight: 500;
+}
+.noticia{
+    margin: 20px 0;
+}
+.coluna{
+    padding: 0 10px;
+    float: left;
+}
+footer{
+    background-color: #162B42;
+    height: 80px;
+}
+footer h4{
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
+.col1{
+    width: 60px;
+}
+.col2{
+    width: 140px;
+}
+.col3{
+    width: 220px;
+}
+.col4{
+    width: 300px;
+}
+.col5{
+    width: 380px;
+}
+.col6{
+    width: 460px;
+}
+.col7{
+    width: 540px;
+}
+.col8{
+    width: 620px;
+}
+.col9{
+    width: 700px;
+}
+.col10{
+    width: 780px;
+}
+.col11{
+    width: 860px;
+}
+.col12{
+    width: 940px;
+}
